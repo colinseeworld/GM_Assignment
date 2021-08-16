@@ -8,9 +8,7 @@ import com.apolis.gm_assignment_colin.data.remote.response.SearchResponse
 import com.google.gson.Gson
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
-import com.nhaarman.mockitokotlin2.doThrow
-
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TestRule

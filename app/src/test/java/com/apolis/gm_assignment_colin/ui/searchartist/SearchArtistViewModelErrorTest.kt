@@ -2,10 +2,7 @@ package com.apolis.gm_assignment_colin.ui.searchartist
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.apolis.gm_assignment_colin.FileReader
 import com.apolis.gm_assignment_colin.data.remote.Repository
-import com.apolis.gm_assignment_colin.data.remote.response.SearchResponse
-import com.google.gson.Gson
 import com.nhaarman.mockitokotlin2.doThrow
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runBlockingTest
@@ -16,8 +13,6 @@ import org.junit.runner.RunWith
 import org.mockito.Mock
 import org.mockito.Mockito
 import org.mockito.junit.MockitoJUnitRunner
-import retrofit2.Response
-import java.net.UnknownHostException
 
 @ExperimentalCoroutinesApi
 @RunWith(MockitoJUnitRunner::class)
